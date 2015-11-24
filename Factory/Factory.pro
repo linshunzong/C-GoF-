@@ -6,6 +6,8 @@
 
 QT       -= core  gui
 
+include(../dir.pri)
+
 TARGET = Factory
 CONFIG   -= console
 CONFIG   -= app_bundle

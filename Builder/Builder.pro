@@ -8,6 +8,8 @@ QT       -= core
 
 QT       -= gui
 
+include(../dir.pri)
+
 TARGET = Builder
 CONFIG   -= console
 CONFIG   -= app_bundle

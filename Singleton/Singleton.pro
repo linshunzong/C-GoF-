@@ -8,6 +8,8 @@ QT       += core
 
 QT       -= gui
 
+include(../dir.pri)
+
 TARGET = Singleton
 CONFIG   += console
 CONFIG   -= app_bundle
